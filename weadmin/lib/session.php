@@ -33,7 +33,6 @@ while (list($xVarName, $xVarvalue) = each($_FILES)) {
 }
 
 
-
 // Session Handle Current User Information ------------------
 if (!isset($_SESSION[$valSiteManage . 'core_session_id'])) {
     $_SESSION[$valSiteManage . 'core_session_id'] = 0;
