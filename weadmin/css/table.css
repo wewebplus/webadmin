@@ -1,0 +1,169 @@
+.table{}
+
+.table thead th{
+    border: none;
+    font-weight: 500;
+    min-width: 120px !important;
+    height: 50px;
+    vertical-align: middle;
+}
+.table thead th.checkbox{
+    min-width: inherit !important;
+    width: 30px;
+}
+.table thead th.checkbox-menu{
+    min-width: inherit !important;
+    width: 200px;
+}
+.table thead th.checkbox-menu > span{
+    cursor: pointer;
+}
+.table thead th.manage{
+    width: 100px;
+    text-align: center;
+}
+.table tbody td .manage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table tbody td .manage .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table tbody td .manage .btn + .btn{
+    margin-left: 6px;
+}
+.table tbody td .manage > .link{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    background-color: var(--color-gray500);
+    border-radius: var(--border-radius);
+    padding: 0 35px 0 15px;
+    font-size: var(--typo-xs);
+    color: var(--color-gray);
+    font-weight: var(--fw-medium);
+    position: relative;
+}
+.table tbody td .manage > .link:after{
+    content: '\e842';
+    font-family: 'feather';
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 0.8em;
+}
+.table tbody td .manage .dropdown-menu{
+    min-width: 120px;
+    margin-top: 5px;
+    padding: 5px 0;
+    border-radius: var(--border-radius);
+    border-color: var(--color-border);
+}
+.table tbody td .manage .dropdown-menu .link{
+    color: var(--color-default);
+    font-size: var(--typo-xs);
+    color: var(--color-gray);
+    display: block;
+    padding: 6px 15px;
+    position: relative;
+}
+.table tbody td .manage .dropdown-menu .link:hover{
+    background-color: var(--color-gray500);
+}
+
+
+.table tbody td .status .dropdown-menu{
+    min-width: 120px;
+    margin-top: 5px;
+    padding: 8px 0;
+    border-radius: var(--border-radius);
+    border-color: var(--color-border);
+}
+.table tbody td .status .dropdown-menu .link{
+    color: var(--color-default);
+    font-size: var(--typo-xs);
+    color: var(--color-gray);
+    display: block;
+    padding: 6px 15px;
+    position: relative;
+}
+.table tbody td .status .dropdown-menu .link.active,
+.table tbody td .status .dropdown-menu .link.active:hover{
+    color: var(--color-light);
+    background-color: var(--color-default);
+}
+.table tbody td .status .dropdown-menu .link:hover{
+    background-color: var(--color-gray500);
+}
+
+
+.table .checkbox-control{
+    display: block;
+}
+.table .checkbox-control .icon{
+    position: relative;
+    top: 0;
+}
+
+.table thead th{
+    padding: 15px 10px;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}
+.table thead th .checkbox-control .icon{
+    border-color: transparent;
+}
+.table thead th .checkbox-control input[type="checkbox"]:checked ~ .icon{
+    background-color: var(--color-light);
+}
+.table thead th .checkbox-control input[type="checkbox"]:checked ~ .icon:before{
+    color: var(--color-primary);
+}
+.table tbody td{
+    vertical-align: middle;
+    padding: 15px 10px;
+    border-color: var(--color-gray100);
+}
+.table tbody tr:nth-child(odd) td{
+    /* background-color: var(--color-gray500); */
+    /* background-color: #f9fcfe; */
+}
+
+.table th:first-child,
+.table td:first-child{
+    padding-left: 20px;
+}
+.table th:last-child,
+.table td:last-child{
+    padding-right: 20px;
+}
+
+
+
+
+.hover-image{
+    position: relative;
+}
+.hover-image .image{
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    padding: 5px;
+    position: absolute;
+    z-index: 100;
+    top: 100%;
+    left: 0;
+    margin-top: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 200ms ease;
+}
+.hover-image .image img{
+    max-width: 400px;
+}
+.hover-image:hover .image{
+    visibility: visible;
+    opacity: 1;
+}

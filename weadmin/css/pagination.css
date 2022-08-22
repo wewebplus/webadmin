@@ -1,0 +1,56 @@
+.pagination{
+    width: 100%;
+    padding: 20px 20px;
+    color: var(--color-gray);
+}
+.pagination .row{
+    width: 100%;
+}
+.pagination .jumpto{
+    margin-right: 15px;
+}
+.pagination .jumpto .select-wrapper{
+    width: 60px;
+}
+.pagination .jumpto{}
+.pagination .jumpto .select2-container .select2-selection--single{
+    height: 30px;
+}
+.pagination .jumpto .select2-container--default .select2-selection--single .select2-selection__rendered{
+    padding: 0 20px 0 10px;
+    line-height: 28px;
+}
+.pagination .jumpto .select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: 30px;
+    right: 4px;
+}
+.pagination .jumpto .select2-container--default .select2-selection--single .select2-selection__arrow b{
+    font-size: 14px;
+}
+.pagination-list li + li{
+    margin-left: 5px;
+}
+.pagination-list .link{
+    display: block;
+    min-width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius);
+    /* border: 1px solid var(--color-border); */
+    background-color: var(--color-gray500);
+    color: var(--color-gray);
+    font-weight: var(--fw-medium);
+}
+.pagination-list .link span{
+    font-size: 0.8em;
+}
+.pagination-list .link:hover{
+    color: var(--color-primary);
+    /* background-color: var(--color-gray100); */
+}
+.pagination-list .link.active{
+    color: var(--color-light);
+    background-color: var(--color-primary);
+}
