@@ -1,0 +1,167 @@
+:root {
+    /* --color-primary: #000; */
+    /* --color-secondary: #000; */
+    --color-success: #50CD89;
+    --color-info: #009EF7;
+    --color-warning: #FFC700;
+    --color-danger: #F1416C;
+    --color-dark: #1a1a27;
+    --color-light: #fff;
+    --color-mute: #aaa;
+    --color-gray: #666;
+    --color-gray100: #EEF0F8;
+    /* --color-gray300: #F0F3F5; */
+    --color-gray300: #F5F8FA;
+    /* --color-gray500: #F5F8FA; */
+    --color-gray500: #ebeef0;
+    --color-default: #1e1e2d;
+    --color-border: #e1e1e1;
+
+    /* --color-light-success: #E8FFF3;
+    --color-light-info: #F1FAFF;
+    --color-light-warning: #FFF8DD;
+    --color-light-danger: #FFF5F8;
+    --color-light-default: #E4E6EF; */
+
+    --color-light-success: #D4FFE9;
+    --color-light-info: #d3effd;
+    --color-light-warning: #fcf1c3;
+    --color-light-danger: #ffe9f0;
+    --color-light-default: #cdd0dd;
+
+    --typo-micro: 16px;
+    --typo-default: 20px; 
+    --typo-xs: 18px; 
+    --typo-sm: 22px; 
+    --typo-md: 24px; 
+    --typo-lg: 30px; 
+    --typo-xl: 34px; 
+
+    --border-radius-xs: 3px; 
+    --border-radius: 5px; 
+
+    --fw-normal: normal;
+    --fw-medium: 500;
+    --fw-bold: bold;
+}
+
+
+.fw-normal{
+    font-weight: var(--fw-normal);
+}
+.fw-medium{
+    font-weight: var(--fw-medium);
+}
+.fw-bold{
+    font-weight: var(--fw-bold);
+}
+
+
+.typo-default{
+    font-size: var(--typo-default);
+}
+.typo-xs{
+    font-size: var(--typo-xs);
+}
+.typo-sm{
+    font-size: var(--typo-sm);
+}
+.typo-md{
+    font-size: var(--typo-md);
+}
+.typo-lg{
+    font-size: var(--typo-lg);
+}
+.typo-xl{
+    font-size: var(--typo-xl);
+}
+
+
+.color-default{
+    color: var(--color-default);
+}
+.color-primary{
+    color: var(--color-primary);
+}
+.color-secondary{
+    color: var(--color-secondary);
+}
+.color-success{
+    color: var(--color-success);
+}
+.color-info{
+    color: var(--color-info);
+}
+.color-warning{
+    color: var(--color-warning);
+}
+.color-danger{
+    color: var(--color-danger);
+}
+.color-dark{
+    color: var(--color-dark);
+}
+.color-light{
+    color: var(--color-light);
+}
+.color-mute{
+    color: var(--color-mute);
+}
+.color-gray{
+    color: var(--color-gray);
+}
+.color-gray100{
+    color: var(--color-gray100);
+}
+.color-gray300{
+    color: var(--color-gray300);
+}
+.color-gray500{
+    color: var(--color-gray500);
+}
+
+
+.bg-default{
+    background-color: var(--color-default);
+}
+.bg-primary{
+    background-color: var(--color-primary);
+}
+.bg-secondary{
+    background-color: var(--color-secondary);
+}
+.bg-success{
+    background-color: var(--color-success);
+}
+.bg-info{
+    background-color: var(--color-info);
+}
+.bg-warning{
+    background-color: var(--color-warning);
+}
+.bg-danger{
+    background-color: var(--color-danger);
+}
+
+
+.bg-light-default{
+    background-color: var(--color-light-default);
+}
+.bg-light-primary{
+    background-color: var(--color-light-primary);
+}
+.bg-light-secondary{
+    background-color: var(--color-light-secondary);
+}
+.bg-light-success{
+    background-color: var(--color-light-success);
+}
+.bg-light-info{
+    background-color: var(--color-light-info);
+}
+.bg-light-warning{
+    background-color: var(--color-light-warning);
+}
+.bg-light-danger{
+    background-color: var(--color-light-danger);
+}
