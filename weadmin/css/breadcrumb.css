@@ -1,0 +1,24 @@
+.breadcrumb{
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+    margin: 0;
+    font-size: var(--typo-xs);
+}
+.breadcrumb .link{
+    color: var(--color-mute);
+}
+.breadcrumb li{
+    color: var(--color-mute);
+}
+.breadcrumb li + li:before{
+    content: '/';
+    padding: 0 2px 0 6px;
+    color: var(--color-mute);
+    font-weight: var(--fw-normal);
+}
+.breadcrumb li.active,
+.breadcrumb li.active .link{
+    color: var(--color-default);
+    font-weight: var(--fw-medium);
+}

@@ -1,0 +1,28 @@
+div.swal2-icon{
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+h2.swal2-title{
+    padding-top: 15px;
+    font-size: var(--typo-md);
+    font-weight: var(--fw-medium);
+    color: var(--color-default);
+}
+div.swal2-popup{
+    width: 28em;
+    padding-bottom: 40px;
+    color: var(--color-default);
+    border-radius: var(--border-radius);
+}
+div.swal2-html-container{
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-size: var(--typo-default);
+    color: var(--color-gray);
+    font-weight: var(--fw-normal);
+}
+.swal2-actions .btn{
+    min-width: 100px;
+    padding: 0 20px;
+    margin: 0 5px;
+}
