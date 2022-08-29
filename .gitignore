@@ -1,10 +1,2 @@
 .buildpath
-vendor/
-application/sessions/ci_session*
-.idea/
-.idea
-.idea/*
-.htaccess
-!web-uploads/user_course_questions/.keep
-web-uploads/user_course_questions/
-uploads/
+lib/config.php
