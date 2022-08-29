@@ -33,10 +33,5 @@
         "symfony/process": "^3.3",
         "akrabat/rka-ip-address-middleware": "^0.5.0",
         "phpmailer/phpmailer": "^5.2",
-        "scriptburn/db-settings":">=1.0",
-        "scriptburn/simple-debug":">=1.0",
-        "scriptburn/db-version-update":">=1.0"
-
-
     }
 }
