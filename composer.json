@@ -32,6 +32,6 @@
         "jeremykendall/password-validator": "^3.0",
         "symfony/process": "^3.3",
         "akrabat/rka-ip-address-middleware": "^0.5.0",
-        "phpmailer/phpmailer": "^5.2",
+        "phpmailer/phpmailer": "^5.2"
     }
 }
